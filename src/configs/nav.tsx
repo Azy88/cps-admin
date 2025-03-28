@@ -234,7 +234,7 @@ export const FOLLOW: IMenu = [
 export const IMPORT: IMenu = [
   {
     name: 'ສັ່ງຊື່',
-    path: 'order',
+    path: '/order',
     icon: iconCareer,
   },
 

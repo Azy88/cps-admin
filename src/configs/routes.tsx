@@ -27,10 +27,14 @@ import DetailServiceList from '@/pages/Manager/ServiceList/detail';
 import EditServicerList from '@/pages/Manager/ServiceList/edit';
 import CreateMedicines from '@/pages/Manager/Medicines/create';
 import EditMedicines from '@/pages/Manager/Medicines/edit';
+<<<<<<< Updated upstream
 import CreateExChange from '@/pages/Manager/Exchange/create';
 import EditExChange from '@/pages/Manager/Exchange/edit';
 import CreateDisease from '@/pages/Manager/Disease/create';
 import EditDisease from '@/pages/Manager/Disease/edit';
+=======
+import ImportPage from '@/pages/Improt';
+>>>>>>> Stashed changes
 
 export interface IRoute {
   path: string;
@@ -205,6 +209,13 @@ export const ROUTES: IRoute[] = [
   path: '/follow',
   title: 'Follow | CPS Admin',
   component: <FollowPage />,
+},
+
+
+{
+  path: '/import',
+  title: 'import | CPS Admin',
+  component: <ImportPage />,
 },
 
 
